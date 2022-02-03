@@ -12,3 +12,4 @@ sxiv
 mpv
 thunar
 pcmanfm
+zathura

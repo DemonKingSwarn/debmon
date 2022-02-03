@@ -51,6 +51,8 @@ mkdir ~/Downloads/gitthings
 cd Downloads/gitthings
 git clone https://github.com/zsh-users/zsh-syntax-highlightingclone 
 cd
+git clone https://github.com/tobi-wan-kenobi/bumblebee-status.git
+apt-fast install fonts-powerline -y
 zsh
 
 
