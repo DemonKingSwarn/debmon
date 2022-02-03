@@ -41,6 +41,7 @@ cd dotfiles-2
 cd .config 
 mv * ~/.config
 cd ..
+rm -rf Downloads
 rm -rf .config
 mv * ..
 cd
@@ -53,6 +54,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlightingclone
 cd
 git clone https://github.com/tobi-wan-kenobi/bumblebee-status.git
 apt-fast install fonts-powerline -y
+pip3 install pywal
+pip3 install pywalfox
 zsh
 
 

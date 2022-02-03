@@ -13,3 +13,6 @@ mpv
 thunar
 pcmanfm
 zathura
+python3
+python3-pip
+htop
