@@ -1,0 +1,14 @@
+compton
+clipit
+kitty
+vim
+nvim
+i3
+sxhkd
+zsh
+rofi
+dmenu
+sxiv
+mpv
+thunar
+pcmanfm
