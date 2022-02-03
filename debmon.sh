@@ -38,6 +38,19 @@ sudo make install
 cd
 git clone https://github.com/demonkingswarn/dotfiles-2
 cd dotfiles-2
+cd .config 
+mv * ~/.config
+cd ..
+rm -rf .config
 mv * ..
 cd
+ln -s ~/.config/zsh/.zshrc ~/.zshrc
+ln -s ~/.config/shell/profile ~/.zprofile
+chsh -s $(which zsh)
+mkdir ~/Downloads/gitthings
+cd Downloads/gitthings
+git clone https://github.com/zsh-users/zsh-syntax-highlightingclone 
+cd
+zsh
+
 
