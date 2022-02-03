@@ -1,6 +1,6 @@
 # debmon
 
-## Installations
+## Installation
 
 ```sh
 $ git clone https://github.com/DemonKingSwarn/debmon
