@@ -4,11 +4,11 @@ sudo add-apt-repository ppa:cppiber/ppa
 sudo apt-get update
 sudo apt-get install rofi -y
 cd ~/
-apt-get install build-essential -y
-add-apt-repository ppa:apt-fast/stable
-apt-get update
-apt-get -y install apt-fast
-aptitude install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake -y
+sudo apt-get install build-essential -y
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get -y install apt-fast
+sudo aptitude install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake -y
 mkdir tmp
 cd tmp
 git clone https://github.com/Airblader/xcb-util-xrm
@@ -57,5 +57,3 @@ apt-fast install fonts-powerline -y
 pip3 install pywal
 pip3 install pywalfox
 zsh
-
-
