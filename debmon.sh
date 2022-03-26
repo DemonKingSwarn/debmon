@@ -48,7 +48,7 @@ cd
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 ln -s ~/.config/shell/profile ~/.zprofile
 chsh -s $(which zsh)
-mkdir ~/Downloads/gitthings
+mkdir -p ~/Downloads/gitthings
 cd Downloads/gitthings
 git clone https://github.com/zsh-users/zsh-syntax-highlightingclone 
 cd
@@ -56,4 +56,5 @@ git clone https://github.com/tobi-wan-kenobi/bumblebee-status.git
 apt-fast install fonts-powerline -y
 pip3 install pywal
 pip3 install pywalfox
+echo "alias ls='exa -lah --color=auto'" >> ~/.config/shell/aliasrc
 zsh
