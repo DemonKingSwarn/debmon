@@ -6,12 +6,13 @@ neovim
 i3
 sxhkd
 zsh
-dmenu
+rofi
 sxiv
 mpv
 thunar
 pcmanfm
-zathura
+zathur
+exa
 python3
 python3-pip
 htop
