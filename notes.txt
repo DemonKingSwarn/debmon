@@ -2,11 +2,10 @@ compton
 clipit
 kitty
 vim
-nvim
+neovim
 i3
 sxhkd
 zsh
-rofi
 dmenu
 sxiv
 mpv
